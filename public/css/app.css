@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin: 0 20%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 2px solid black;
+}
+
+.nav li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin: 20px 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  color: dimgrey;
+}
+
+.content {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content .card {
+  width: 40vw;
+}
+
+.content .card-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content .card-body {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content .card-body input {
+  padding: 5px 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .card-body button {
+  padding: 5px 10px;
+  background-color: grey;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content .card-body button:hover {
+  color: white;
+  background-color: black;
+}
+
+.content .card-body a {
+  text-decoration: none;
+  color: black;
+  padding: 0 4px;
+  margin-left: 5px;
+}
+
